@@ -1,3 +1,4 @@
+package TypeSystem;
 
 
 /* First created by JCasGen Wed Sep 11 20:14:02 EDT 2013 */
@@ -12,12 +13,12 @@ import org.apache.uima.jcas.cas.TOP_Type;
  * Updated by JCasGen Wed Sep 11 21:03:59 EDT 2013
  * XML source: /Users/tengda/Documents/workspace/hw1-dateng/src/main/resources/hw1-dateng-typesystem.xml
  * @generated */
-public class Question extends InformationProcessingAnnotation {
+public class Token extends InformationProcessingAnnotation {
   /** @generated
    * @ordered 
    */
   @SuppressWarnings ("hiding")
-  public final static int typeIndexID = JCasRegistry.register(Question.class);
+  public final static int typeIndexID = JCasRegistry.register(Token.class);
   /** @generated
    * @ordered 
    */
@@ -29,23 +30,23 @@ public class Question extends InformationProcessingAnnotation {
  
   /** Never called.  Disable default constructor
    * @generated */
-  protected Question() {/* intentionally empty block */}
+  protected Token() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
    * @generated */
-  public Question(int addr, TOP_Type type) {
+  public Token(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
   /** @generated */
-  public Question(JCas jcas) {
+  public Token(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
   /** @generated */  
-  public Question(JCas jcas, int begin, int end) {
+  public Token(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
     setEnd(end);

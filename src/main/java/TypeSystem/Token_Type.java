@@ -1,3 +1,4 @@
+package TypeSystem;
 
 /* First created by JCasGen Wed Sep 11 20:14:02 EDT 2013 */
 
